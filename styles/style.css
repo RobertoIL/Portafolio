@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body {
+    font-family: Rubik;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+html {
+    background-color: #fff9fa;
+    color: #000000;
+}
+
+header {
+    background-color: #FEEEF0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #F4ECED;
+    text-align: center;
+    padding: 20px;
+}
+.experience {
+    background-color: #E6F9E9;
+
+}
+
+.about {
+    display: flex;
+}
+.tech {
+    margin: 30px;
+}
+.laguage {
+    margin: 30px;
+}
+
