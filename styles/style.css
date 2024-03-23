@@ -3,10 +3,11 @@
 
 body {
     font-family: Rubik;
+    padding: 50px 100px 0px 100px;
 }
 
 html {
-    background-color: #fff9fa;
+    background-color: #F4F4F4;
     color: #000000;
 }
 
@@ -29,17 +30,17 @@ html {
     padding-left: 50px;
     padding-right: 50px;
 }
-.about{
-    padding-left: 50px;
-    padding-right: 50px;    
-}
+
 
 .contenedor-experience{
     display: flex;
 }
 
 .proyecto {
-    align-items: center;
+    text-align: initial;
+}
+.proyecto h3 {
+    text-align: initial;
 }
 
 .proyecto img{
@@ -47,17 +48,38 @@ html {
     height: 200px;
     margin-right: 20px;
     margin-left: 200px;
+    display: block;
+    margin: 0;
 }
 
+.skill {
+    display: flex;
+}
+
+.skill h4 {
+    margin-right: 20px;
+}
 
 footer {
     background-color: #F4ECED;
-    text-align: center;
-    padding: 20px;
+    text-align: center; 
+    padding: 10px;
 }
 
-.about {
-    padding-left: 50px;
-    padding-right: 50px;
-}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+  .rating span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating span:before {
+    content: "\2605";
+    position: absolute;
+  }
+
+
 
